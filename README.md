@@ -19,7 +19,9 @@ GETTING INPUT
 
 CALCULATIONS
 
-    incomeYear2 = currentIncome + (currentIncome * .10)
+    incomeYear1 = currentIncome + (currentIncome * 10);
+    
+    incomeYear2 = incomeYear1 + (incomeYear1 * .10)
 
     incomeYear3 = incomeYear2 + (incomeYear2 * .10)
 

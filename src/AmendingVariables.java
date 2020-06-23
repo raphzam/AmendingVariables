@@ -11,7 +11,10 @@ public class AmendingVariables {
 
 //        CALCULATIONS
 
-        double incomeYear2 = currentIncome + (currentIncome * annualIncrease);
+
+        double incomeYear1 = currentIncome + (currentIncome * annualIncrease);
+
+        double incomeYear2 = incomeYear1 + (incomeYear1 * annualIncrease);
 
         double incomeYear3 = incomeYear2 + (incomeYear2 * annualIncrease);
 
